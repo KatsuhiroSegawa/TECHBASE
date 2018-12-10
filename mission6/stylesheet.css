@@ -1,0 +1,186 @@
+html,body{ margin: 0; padding: 0; width: 100%; height: 100%; }
+body{
+	font-family: "ヒラギノ角ゴ Pro W3",Meiryo,"ＭＳ Ｐゴシック";
+	overflow-x: hidden;
+	background-color: whitesmoke; 
+	z-index: -1;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{ margin: 0; }
+li { list-style: none; }
+
+
+/* ----------ヘッダー部分---------- */
+
+header{
+	width: 100%;
+	height: 100px;
+	color: white;
+	background-color: rgb(20, 20, 80);
+}
+header a { text-decoration: none; }
+header a:link{ color: white; }
+header a:visited{ color: white; }
+header a:hover{ text-decoration: underline; }
+
+.header-title{ float: left; height: 100%; }
+.header-title a:hover{ color: gainsboro; text-decoration: none; }
+.header-title span{
+	font-size: 38px;
+	vertical-align: -45px;
+	margin-left: 55px;
+}
+.header-welcome{
+	float: right;
+	height: 100%;
+}
+.header-welcome span{
+	font-size: 18px;
+	vertical-align: -60px;
+}
+.header-panel{
+	float: right;
+	height: 85%;
+	font-size: 20px;
+	border-left: solid 1px white;
+	margin-top: 7px;
+	margin-left: 5px;
+	margin-right: 1px;
+	padding-right: 30px;
+}
+.header-panel ul { margin-top: 13px; }
+
+
+/* ----------メイン部分----------　*/
+
+main{
+	width: 65%;
+	background-color: white;
+	margin: auto;
+	color: #191a16;
+}
+main a { text-decoration: none; }
+main a:hover{ text-decoration: underline; }
+
+/* トップ */
+.title{
+	text-align: center;
+	font-size: 22px;
+	padding: 30px 0 25px 0;
+}
+.companyList-business{
+	padding: 10px;
+	font-size: 20px;
+}
+.business{
+	width: 75%;
+	margin: auto;
+	border-top: solid 1px gray;
+	padding-top: 12px;
+}
+.business p { margin-left: 60px;}
+.business li { margin-left: 60px; }
+.blank{ min-height: 15px; }
+
+/* 企業ページ一覧 */
+.companyAllList{
+	width: 60%;
+	margin: auto;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.companyAllList p{ margin-left: 25px; padding: 0 0 15px 15px; }
+
+/* サインアップ・ログイン */
+.form{
+	width: 75%;
+	margin: auto;
+	font-size: 20px;
+	height: 500px;
+}
+.field{ height: 80%; }
+.field table{ margin: 130px auto 0 auto; }
+.field td{ padding: 0 10px; }
+
+/* 認証ページ */
+.comfirm{
+	width: 55%;
+	min-height: 550px;
+	margin: auto;
+	font-size: 20px;
+}
+.comfirm .message{ margin: auto; padding: 80px 0; }
+.comfirm p{ text-align: center; }
+
+/* マイページ */
+.userCompanyList{
+	width: 60%;
+	min-height: 500px;
+	margin: auto;
+	padding-bottom: 30px;
+	font-size: 20px;
+}
+.userCompanyList p{ margin-left: 30px; }
+.userCompanyList ul{ margin: 40px;}
+
+
+/* -----企業ページ----- */
+.companyPage{
+	width: 75%;
+	margin: auto;
+	padding: 15px;
+	border-right: solid 1px gray;
+	border-left: solid 1px gray;
+}
+.companyPage .name{
+	text-align: center;
+	padding: 30px 20px;
+	font-size: 24px;
+}
+.companyLink{ margin: 0px 0 25px 400px; }
+.companyInfo{
+	width: 50%;
+	margin: auto;
+	font-size: 20px;
+}
+.companyInfo p{ margin: 15px 0 15px 120px; }
+.companyInfo table{ width: 100%; padding: 3px; border: solid 1px gray; }
+.companyInfo tr{ font-size: 19px; }
+.listButton{ margin: 10px 0 0 7px; }
+.commentArea{
+	min-height: 150px;
+	max-width: 100%;
+	margin: 5px;
+	font-size: 16.5px;
+	word-wrap: break-word;
+}
+.commentAll{ border-top: solid 1px gray; }
+.commentAll p{ padding: 5px 0 60px 0; border-bottom: solid 1px gray; }
+.commentArea ul{ padding: 4px ;overflow: hidden;}
+.commentArea li{ float: left; margin-right: 60px;}
+.commentArea .id{ color: dimgray; }
+.commentArea .username{ font-size: 18px; }
+.commentArea .date{ color: dimgray; }
+.commentArea p{	margin: 60px 0 5px 0; }
+.commentTable{ padding: 5px; border-bottom: solid 1px gray; }
+.comment{padding: 5px 29px; }
+.commentForm p{ padding: 15px 0; }
+
+
+/* ----------フッター部分---------- */
+
+footer{
+	width: 100%;
+	height: 60px;
+	color: white;
+	font-size: 20px;
+	background-color: rgb(20, 20, 80);
+	text-align: left;
+}
+footer a { text-decoration: none; }
+footer a:link{ color: white; }
+footer a:visited{ color: white; }
+footer a:hover{ color: gainsboro; }
+footer span{
+	vertical-align: -17px;
+	margin-left: 30px;
+}
